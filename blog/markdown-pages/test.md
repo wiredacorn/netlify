@@ -1,6 +1,6 @@
 ---
-path: /blog/test
-date: 2020-07-13T05:34:56.524Z
-title: test
+slug: "/blog/test"
+date: "2019-05-04"
+title: "Test"
 ---
 test

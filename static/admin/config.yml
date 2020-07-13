@@ -5,11 +5,11 @@ media_folder: static/assets
 public_folder: /assets
 collections:
   - name: blog
+    slug: {{slug}}
     label: "Blog"
     folder: "/blog"
     create: true
     identifier_field: name
-    slug: title
     fields:
       - { name: "path", label: "Path" }
       - { name: "date", label: "Date", widget: "datetime" }

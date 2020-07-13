@@ -5,23 +5,20 @@ media_folder: static/assets
 public_folder: /assets
 collections:
   - name: blog
-    slug: {{slug}}
-    label: "Blog"
-    folder: "/blog"
+    label: Blog
+    folder: blog
     create: true
-    identifier_field: name
     fields:
-      - { name: "path", label: "Path" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
   - name: product
-    slug: title
     label: Product
     folder: product
     create: true
     fields:
-      - { name: "path", label: "Path" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "title", label: "Title" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
